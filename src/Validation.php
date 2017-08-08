@@ -52,34 +52,3 @@ class Validation
 
     
 }
-
-/*
-
-echo "<table border=1>";
-
-foreach ([true, false, null, '', 0, 0.5, -1, 1, "0", "1", new \Jsnlib\Ao] as $a)
-{
-    echo "<tr>";
-        echo "<td>";
-            var_dump($a);
-        echo "</td>";
-        echo "<td>";
-            echo gettype($a);
-        echo "</td>";
-        echo "<td>";
-            if (\Lib\Jsnlib\Validation::input($a, ['string_empty' => false])) 
-            {
-                echo "有帶入參數";
-            }
-        echo "</td>";
-        echo "<td>";
-            if (\Lib\Jsnlib\Validation::no_input($a, ['string_empty' => false])) 
-            {
-                echo "沒有參數";
-            }
-        echo "</td>";
-    echo "</tr>";
-}
-echo "</table>";
-
- */
