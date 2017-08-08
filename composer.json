@@ -1,8 +1,8 @@
 {
-    "name": "jsnlib/ci_validation",
+    "name": "jsnlib/validation",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/fdjkgh580/ci_validation.git",
+    "homepage": "https://github.com/fdjkgh580/validation.git",
     "require": {
         "php": ">=7.0",
         "jsnlib/jsnlib": "^2.1"
