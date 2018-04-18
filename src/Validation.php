@@ -31,7 +31,7 @@ class Validation
      */
     static public function input($data, array $options = []): bool
     {
-        if ($options['string_empty'] === true)
+        if (isset($options['string_empty']) and $options['string_empty'] === true)
         {
             return 
             (
